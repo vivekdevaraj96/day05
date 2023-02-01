@@ -10,7 +10,7 @@ let prime=arr.filter((a)=>{
         }
     }
 
-    if(isprime==0){
+    if(isprime==0 && a!=1){
         return a;
     }
 })
