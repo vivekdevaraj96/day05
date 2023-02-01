@@ -9,7 +9,7 @@ var primecheck=arr.filter(function(a){
             out=out+1;
         }
     }
-    if(out==0){
+    if(out==0 && a!=1){
         return a;
     }
 })
